@@ -1,4 +1,4 @@
-# Reconhecimento-e-correcao-de-entidades-para-dados-financeiros-com-spaCy
+# Reconhecimento e correção de entidades para dados financeiros com spaCy
 Este repositório demonstra o uso da biblioteca spaCy para a identificação e correção de entidades em textos financeiros. O código carrega dados de símbolos de ações, índices e bolsas de valores e utiliza o EntityRuler do spaCy para definir padrões e melhorar a precisão do reconhecimento de entidades.
 
 O script inclui a criação de padrões específicos para índices financeiros, símbolos de índices e bolsas de valores. Além disso, ajusta a classificação de entidades para evitar erros comuns, como classificar "Nasdaq" como uma empresa. A correção e aplicação desses padrões são exemplificadas com um texto de notícias financeiras, onde o código identifica corretamente entidades como "S&P 500", "Dow Jones" e "Nasdaq". Este projeto é uma aplicação prática que exemplifica como o spaCy pode ser útil para processar e analisar grandes volumes de texto financeiro com precisão.
